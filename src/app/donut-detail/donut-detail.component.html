@@ -1,0 +1,7 @@
+<div>
+  <h3>{{ donut.name }}</h3>
+  <h4>Calories: {{ donut.calories }}</h4>
+  <h4>Extras:</h4>
+  <p *ngFor="let e of donut.extras">{{ e }}</p>
+  <img style="width: 200px; height: 200px" src="{{ donut.photo }}" />
+</div>
